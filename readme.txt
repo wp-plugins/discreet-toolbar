@@ -14,10 +14,11 @@ Hide Toolbar till cursor is near it. Front-end only. [screencast demo](http://sc
 
 **Beta!!**
 
-Limited browser and theme testing. Please report bugs before leaving a bad review.
+Limited browser and theme testing*. Please report bugs before leaving a bad review.
 
-Find my on [twitter](http://twitter.com/trepmal)
+Find me on [twitter](http://twitter.com/trepmal)
 
+* also known as none.
 
 == Installation ==
 
