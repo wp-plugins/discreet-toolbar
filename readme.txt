@@ -18,7 +18,7 @@ Limited browser and theme testing*. Please report bugs before leaving a bad revi
 
 Find me on [twitter](http://twitter.com/trepmal)
 
-* also known as none.
+[]()* also known as none.
 
 == Installation ==
 
