@@ -32,12 +32,18 @@ No questions yet, ask away
 
 1. Now you see it, now you don't
 
-== Changelog ==
-
-= 0.1 =
-* First release
-
 == Upgrade Notice ==
+
+= 0.2 =
+Faster animation
 
 = 0.1 =
 First!!1!
+
+== Changelog ==
+
+= 0.2 =
+* Faster animation
+
+= 0.1 =
+* First release

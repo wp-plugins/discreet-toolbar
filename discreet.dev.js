@@ -20,17 +20,21 @@ jQuery(document).ready( function($) {
 		// sanity check
 		//$('h1').html( ev.clientY + ', ' + ev.clientX + ', ' + $tbp );
 
-		if ( ev.clientY <= $tbh && $tbp < 0 ) {
-			// cursor in zone and bar is hidden
-			$tb.stop().animate({
+		if ( ev.clientY <= $tbh && $tbp < 0 && !$tb.hasClass('sliding') ) {
+			// cursor in zone and bar is hidden and is not currently sliding
+			$tb.addClass('sliding').animate({
 				'top': 0
-			}, 'fast');
+			}, 100, function() {
+				$tb.removeClass('sliding');
+			});
 		}
 		else if ( ev.clientY > $tbh && $tbp == 0 && ! $tb.hasClass('hovering') ) {
 			// cursor not in zone and bar is showing and not in submenu
 			$tb.stop().animate({
 				'top': ($tbh*-1)
-			}, 'fast');
+			}, 50, function() {
+				$tb.removeClass('sliding');
+			});
 		}
 		else if ( ( ev.clientY <= $tbh && $tbp == 0 ) || ( ev.clientY > $tbh && $tbp < 0 ) ) {
 			// cursor in zone and bar is showing

@@ -1,10 +1,9 @@
 <?php
-
 /*
 Plugin Name: Discreet Toolbar
 Plugin URI: http://trepmal.com/plugins/discreet-toolbar
 Description: Hide Toolbar till cursor is near it. Front-end only.
-Version: 0.1
+Version: 0.2
 Author: Kailey Lampert
 Author URI: http://kaileylampert.com/
 */
