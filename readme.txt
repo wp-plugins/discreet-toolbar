@@ -10,9 +10,9 @@ Hide Toolbar till cursor is near it. Front-end only.
 
 == Description ==
 
-Hide Toolbar till cursor is near it. Front-end only. [screencast demo](http://screencast.com/t/wQFad1nNe)
+Hide Toolbar till cursor is near it. Front-end only.
 
-**Beta!!**
+[youtube http://www.youtube.com/watch?v=TBH4zDVXqpU]
 
 Limited browser and theme testing*. Please report bugs before leaving a bad review.
 
